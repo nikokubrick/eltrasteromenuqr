@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: helvetica, arial, san-serif;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #94a1a7;
 
 }
@@ -30,6 +30,7 @@ li {
 
 h1 {
 color: #ffffff;
+
 }
 
 a {
@@ -234,4 +235,14 @@ a:hover {
   text-align: center;
   color: rgb(227, 252, 0);
   font-size: 35px;
+}
+
+.alaro {
+  margin-block: 10px;
+}
+
+.alaro .text{
+ 
+  align-items: center;
+  text-align: center;
 }
