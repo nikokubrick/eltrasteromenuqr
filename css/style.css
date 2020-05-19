@@ -159,13 +159,13 @@ a:hover {
 
 .indicador{
   margin-left: 63px;
-   z-index: 2;
-  position: fixed;
-  display: block; 
+  display: block;
+  position: absolute; 
   margin-top: 6px;
   color: #ffffff;
   box-shadow: black;
-}
+  
+} 
 
 #menu{
 	width: 32px;
