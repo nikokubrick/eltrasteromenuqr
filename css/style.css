@@ -157,12 +157,23 @@ a:hover {
 }
 
 
+.indicador{
+  margin-left: 63px;
+   z-index: 2;
+  position: fixed;
+  display: block; 
+  margin-top: 6px;
+  color: #ffffff;
+  box-shadow: black;
+}
+
 #menu{
 	width: 32px;
 	height: 27px;
-	margin: 30px 0 20px 20px;
+	margin: 30px 20px 20px;
 	cursor: pointer;
 }
+
 .bar{
 	height: 5px;
 	width: 100%;
