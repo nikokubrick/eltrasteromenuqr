@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    font-family: helvetica, arial, san-serif;
+    background-color: #94a1a7;
+  
+  }
+  
+  .first {
+    background-color: #464747;
+  }
+  
+  .container {
+   width: 100%;
+   height: 30%;
+   background: #94a1a7;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+
+   
+
+  }
+
+  .box {
+    
+    background: rgb(252, 248, 46);
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 90%;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    
+
+}
+
+.box img{
+    max-width: 100%;
+}
+  
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5em;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  h1 {
+  color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #222f3e;
+    font-family: sans-serif;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    cursor: crosshair;
+  }
+  
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5%;
+  }
+  
+  .column2 {
+    width: 100%;
+  }
+  
+  .hero-image {
+    float: right;
+    max-height: 80vh;
+    margin-bottom: 0px;
+    justify-content: end;
+    display: flex;
+  }
+  
+  .hero-text {
+    font-family: "Poppins", san-serif;
+    background-color: rgba(22, 21, 21, 0.7);
+    padding: 5em;
+    border-radius: 10px;
+  }
+  .hero-text p {
+    text-align: justify;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  
+  .second {
+    background-color: rgb(236, 229, 229);
+    min-height: 500px;
+    text-align: center;
+    background-image: url("https://cdn.glitch.com/5f8445e6-7cb3-47ef-8b81-884235184212%2Fbackground-image.jpg?v=1584962577527");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .product-list {
+    background-color: #94a1a7;
+    padding: 3em;
+    text-align: center;
+        
+  }
+  
+  .product-list .card {
+    background-color: rgb(255, 251, 191);
+    border-radius: 10px;
+    padding:1em;
+    box-shadow: 0px 07px 12px #ffffff;
+    text-align: center;
+    font-family: 'Poppins';
+    max-width: 100%;
+    
+    
+  }
+  
+  .card {
+    margin-bottom: 22px;
+    
+  }
+  
+  .card .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card .text {
+    text-align:left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .buy-button {
+    background-color: #f9ca24;
+    padding: 1em; 
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 100%;
+    font-size: 20px;
+    align-items: center;
+    outline: none;
+    
+  }
+  
+  
+  .overlay {
+    background: red;
+    opacity: 0.5;
+    width: 100%;
+    
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+  }
+  
+  
+  .indicador{
+    margin-left: 63px;
+    display: block;
+    position: absolute; 
+    margin-top: 6px;
+    color: #ffffff;
+    box-shadow: black;
+    
+  } 
+  
+  #menu{
+      width: 32px;
+      height: 27px;
+      margin: 30px 20px 20px;
+      cursor: pointer;
+  }
+  
+  .bar{
+      height: 5px;
+      width: 100%;
+      background-color: #f1cf37;
+      display: block;
+      border-radius: 5px;
+      transition: 0.3s ease;
+  }
+  #bar1{
+      transform: translateY(-4px);
+  }
+  #bar3{
+      transform: translateY(4px);
+  }
+  .nav li a{
+      color: rgb(252, 248, 46);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .nav li a:hover{
+      font-weight: bold;
+  }
+  .nav li{
+      list-style: none;
+      padding: 5px 0;
+  }
+  .nav{
+      padding: 0;
+      margin: 0 20px;
+      transition: 0.3s ease;
+      display: none;
+  }
+  .menu-bg, #menu-bar{
+      top: 0;
+      left: 0;
+      position: absolute;
+  }
+  .menu-bg{
+      z-index: 1;
+      width: 0;
+      height: 0;
+      margin: 30px 0 20px 20px;
+      background: radial-gradient(circle,#444444,#4e5a0c);
+      border-radius: 50%;
+      transition: 0.2s ease;
+  }
+  #menu-bar{
+    z-index: 2;	
+   
+  }
+  .change-bg{
+      width: 500px;
+      height: 860px;
+      transform: translate(-60%,-30%);
+  }
+  .change .bar{
+      background-color: white;
+  }
+  .change #bar1{
+      transform: translateY(4px) rotateZ(-45deg);
+  }
+  .change #bar3{
+      transform: translateY(-6px) rotate(45deg);
+  }
+  .change #bar2{
+      opacity: 0;
+  }
+  .change{
+      display: block;
+  }
+  
+  
+  .gotopbtn{
+    position: inherit;
+    align-items: center;
+    text-decoration: blanchedalmond;
+    text-align: center;
+    color: rgb(227, 252, 0);
+    font-size: 35px;
+  }
